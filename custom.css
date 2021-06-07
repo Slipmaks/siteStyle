@@ -1,0 +1,164 @@
+/* body */
+body {
+  background-color: white !important;
+}
+
+/* отступ из ображения от текста в материале */
+.article-details .article-full-image {
+  margin-right: 30px !important;
+}
+.tt {
+  background-color: rgb(159, 204, 159);
+  margin: 25px !important;
+}
+.tc {
+  /*border: rgb(167, 167, 167) solid 2px;*/
+}
+/* back on top button */
+.sp-scroll-up {
+  color: #1d1c2b !important;
+  background: rgba(119, 118, 135, 0.5) !important;
+}
+
+.sp-scroll-up:hover {
+  color: #ffb830 !important;
+  background: rgba(29, 28, 43, 0.5) !important;
+  border: 1px !important;
+  border-style: solid !important;
+}
+
+/*  offcanvas  */
+.close-offcanvas {
+  background: none !important;
+  color: #1d1c2b !important;
+}
+
+.offcanvas-menu
+  .offcanvas-inner
+  .sp-module
+  ul
+  > li.menu-parent
+  > a
+  > .menu-toggler:after,
+.offcanvas-menu
+  .offcanvas-inner
+  .sp-module
+  ul
+  > li.menu-parent
+  > .menu-separator
+  > .menu-toggler:after {
+  content: "\f067" !important;
+  color: #000 !important;
+}
+
+.offcanvas-menu
+  .offcanvas-inner
+  .sp-module
+  ul
+  > li.menu-parent.menu-parent-open
+  > a
+  > .menu-toggler:after,
+.offcanvas-menu
+  .offcanvas-inner
+  .sp-module
+  ul
+  > li.menu-parent.menu-parent-open
+  > .menu-separator
+  > .menu-toggler:after {
+  content: "\f068" !important;
+}
+
+.offcanvas-menu
+  .offcanvas-inner
+  .sp-module
+  ul
+  > li.menu-parent
+  > .nav-header
+  > .menu-toggler:after {
+  content: "\f067" !important;
+}
+
+.offcanvas-menu
+  .offcanvas-inner
+  .sp-module
+  ul
+  > li.menu-parent.menu-parent-open
+  > .nav-header
+  > .menu-toggler:after {
+  content: "\f068" !important;
+}
+
+/* фото преподователей в аккордеоне кафедр */
+.sppb-addon-image-content .sppb-image-holder {
+  width: 40% !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+/* кнопка "Наступна" в материалах */
+.pager > li a {
+  border: 0px !important;
+}
+
+/* кнопка Тэга в материалах */
+.tags > li a {
+  border-radius: 0 !important;
+}
+
+/* blog */
+.article-list .article .article-intro-image,
+.article-list .article .article-featured-video,
+.article-list .article .article-featured-audio,
+.article-list .article .article-feature-gallery {
+  margin: 0px 20px 20px 0px !important;
+}
+
+.tags {
+  margin: 2rem 0px 2rem 20px !important;
+}
+
+.chart-legend li {
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  width: 100% !important;
+}
+/* Новости факультетов плитки  */
+.mfp_default_skin_card .mfp_default_item div {
+  box-shadow: unset !important;
+  /*border: 1px solid #c8c8c8 !important;*/
+  border-left: unset !important;
+  border-right: unset !important;
+  border-bottom: 2px solid rgb(0, 0, 0) !important;
+  border-top: 2px solid rgb(0, 0, 0) !important;
+  background-color: #f9f9f9 !important;
+  padding: 25px !important;
+}
+.mfp_default_skin_card .mfp_default_item .mfp_default_title a {
+  font-family: "Montserrat" !important;
+}
+/* Скроллер страница Новости */
+#sppb-addon-1614087199677 .sppb-addon-articles-scroller-title,
+#sppb-addon-1614087199677 .sppb-articles-ticker-text a,
+#sppb-addon-1614087199677 .sppb-articles-ticker-ticker-modern-content a {
+  padding-top: 10px !important;
+  font-family: "Montserrat" !important;
+  font-weight: 600 !important;
+}
+
+#sppb-addon-1618991756401 a {
+  font-family: "Montserrat" !important;
+  font-weight: 600 !important;
+}
+
+#sppb-addon-1621855930024 a {
+  font-family: "Montserrat" !important;
+  font-weight: 600 !important;
+}
+/* События */
+.sppb-carousel-inner > .sppb-item > a > img,
+.sppb-carousel-inner > .sppb-item > img,
+.sppb-img-responsive {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-bottom: 20px !important;
+}
