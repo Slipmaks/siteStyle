@@ -8,21 +8,24 @@ body {
     padding: 0 !important;
   }
   #sp-header.header-sticky ~ section#sp-main-body {
-    padding: 0 !important;
+    padding: 0;
   }
   #sp-main-body {
     padding: 0 !important;
   }
   #sp-header {
     height: 90px !important;
-    left: 0 !important;
-    top: 0 !important;
-    width: 100% !important;
+    left: 0;
+    top: 0;
+    width: 100%;
     z-index: 99;
-    background-color: #1d1c2b7a !important;
+    background-color: #1d1c2bee !important;
     box-shadow: none !important;
-    transition: 0.4s !important;
+    transition: 0.4s;
     position: absolute;
+  }
+  .sp-megamenu-parent .sp-dropdown .sp-dropdown-inner {
+    background-color: #1d1c2bee;
   }
 }
 
@@ -30,6 +33,9 @@ body {
   background-color: #1d1c2b;
   box-shadow: none;
 }
+/*@media (max-width: 991px) {
+ 
+}*/
 /* отступ из ображения от текста в материале */
 .article-details .article-full-image {
   margin-right: 30px !important;
@@ -38,9 +44,6 @@ body {
   background-color: rgb(159, 204, 159);
   margin: 25px !important;
 }
-
-/*.tc {
-    /*border: rgb(167, 167, 167) solid 2px;*/
 
 /* back on top button */
 .sp-scroll-up {
@@ -115,6 +118,9 @@ body {
   > .menu-toggler:after {
   content: "\f068" !important;
 }
+.offcanvas-overlay {
+  background: none;
+}
 
 /* фото преподователей в аккордеоне кафедр */
 .sppb-addon-image-content .sppb-image-holder {
@@ -138,9 +144,18 @@ body {
 .article-list .article .article-featured-video,
 .article-list .article .article-featured-audio,
 .article-list .article .article-feature-gallery {
-  margin: 0px 20px 20px 0px !important;
+  /*margin: 0px 20px 20px 0px !important;*/
+  width: 100%;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+.article-list .article .article-intro-image img,
+.article-list .article .article-featured-video img,
+.article-list .article .article-featured-audio img,
+.article-list .article .article-feature-gallery img {
+  width: 100%;
+}
 .tags {
   margin: 2rem 0px 2rem 20px !important;
 }
@@ -152,12 +167,12 @@ body {
 }
 /* Новости факультетов плитки  */
 .mfp_default_skin_card .mfp_default_item div {
-  box-shadow: unset !important;
-  /*border: 1px solid #c8c8c8 !important;*/
-  border-left: unset !important;
+  /*box-shadow: unset !important;*/
+  /*border-left: unset !important;
   border-right: unset !important;
   border-bottom: 2px solid rgb(0, 0, 0) !important;
-  border-top: 2px solid rgb(0, 0, 0) !important;
+  border-top: 2px solid rgb(0, 0, 0) !important;*/
+  border-radius: 8px;
   background-color: #f9f9f9 !important;
   padding: 25px !important;
 }
@@ -183,10 +198,25 @@ body {
   font-weight: 600 !important;
 }
 /* События */
+
 .sppb-carousel-inner > .sppb-item > a > img,
 .sppb-carousel-inner > .sppb-item > img,
 .sppb-img-responsive {
+  width: 100%;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-bottom: 20px !important;
+}
+
+/*Секция с на главной странице*/
+.section-top-main-page {
+  box-shadow: 0px -5px 5px -5px #1d1c2b54 !important;
+}
+.section-bottom-main-page {
+  box-shadow: 0px 5px 5px -5px #1d1c2b54 !important;
+}
+/*Блог*/
+.blog,
+.article-details {
+  padding-top: 120px;
 }
